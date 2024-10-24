@@ -1,5 +1,3 @@
-Here’s a `README.md` file that explains the project structure, installation, usage, and testing instructions for your Key-Value File Store in Node.js:
-
 ---
 
 # Key-Value File Store
@@ -94,28 +92,8 @@ To run the tests:
 node test.js
 ```
 
-### Test Coverage
 
-- **Create**: Ensures that key-value pairs are created successfully.
-- **TTL**: Validates that keys expire after the TTL period.
-- **Delete**: Ensures that keys are deleted correctly.
-- **Batch Create**: Verifies that multiple keys can be created efficiently in one operation.
-- **Concurrency**: Ensures that file-based operations are thread-safe.
 
-## Error Handling
-
-- **Duplicate Keys**: Throws an error if a key already exists.
-- **Key Not Found**: Throws an error if attempting to read or delete a non-existent key.
-- **TTL Expiry**: Throws an error if a key has expired and is no longer available.
-
-## Future Improvements
-
-- Add support for **multiple client processes** to access the file store simultaneously.
-- Implement **automatic cleanup** of expired keys on a schedule.
-
-## License
-
-This project is licensed under the MIT License.
 
 ---
 
