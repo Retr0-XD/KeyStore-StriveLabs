@@ -20,7 +20,8 @@ This project implements a high-performance, scalable, file-based Key-Value Data 
 ## Requirements
 
 - **Node.js** (>= v12)
-- Optional: **proper-lockfile** library for concurrency control.
+- **proper-lockfile** library for concurrency control.
+- **fs** file access and operations.
 
 ## Installation
 
